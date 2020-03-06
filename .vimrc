@@ -64,3 +64,13 @@ set history=10000
  
 "カラースキーマの適用
 colorscheme molokai
+
+call plug#begin()
+" ファイルオープンを便利に
+Plug 'Shougo/unite.vim'
+" Unite.vimで最近使ったファイルを表示できるようにする
+Plug 'Shougo/neomru.vim'
+" ファイルをtree表示してくれる
+Plug 'scrooloose/nerdtree'
+call plug#end()
+
